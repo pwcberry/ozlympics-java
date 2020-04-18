@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TriathleteTests {
 
 	@Test
-	public void testAddToGame() {
+	public void addToGame() {
 		// Arrange
 		FakeTriathlete athlete = new FakeTriathlete();
 		Game game = createGame(Sport.RUNNING);
@@ -24,7 +24,7 @@ public class TriathleteTests {
 	}
 
 	@Test
-	public void testCompeteAndResults() {
+	public void competeAndResults() {
 		// Arrange
 		FakeTriathlete athlete = new FakeTriathlete();
 

@@ -68,7 +68,7 @@ public class OzlympicsFileReaderTests {
 		
 		Official[] officials = ozManager.getOfficials();
 		Official fiennes = officials[0];
-		Official pearson =officials[2];
+		Official pearson = officials[2];
 
 		assertEquals("Ralph Fiennes", fiennes.getName());
 		assertEquals("WA", fiennes.getState());

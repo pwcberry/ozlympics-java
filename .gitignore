@@ -29,4 +29,7 @@ hs_err_pid*
 
 # App
 out/
+test_save.dat
+reader_errors.txt
+writer_errors.txt
 

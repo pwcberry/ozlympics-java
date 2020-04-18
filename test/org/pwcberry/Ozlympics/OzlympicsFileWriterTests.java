@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class OzlympicsFileWriterTests {
 
 	@Test
-	public void testSave() {
+	public void saveOlympicsManager() {
 		OzlympicsFileWriter writer = new OzlympicsTextFileWriter();
 		OzlympicsManager ozManager = createOzlympicsManager();
 
@@ -17,7 +17,7 @@ public class OzlympicsFileWriterTests {
 	}
 
 	@Test
-	public void testAthletesHaveSaved() {
+	public void athletesHaveSaved() {
 		OzlympicsFileWriter writer = new OzlympicsTextFileWriter();
 		OzlympicsManager ozManager = createOzlympicsManager();
 
@@ -37,7 +37,7 @@ public class OzlympicsFileWriterTests {
 	}
 
 	@Test
-	public void testOfficialsHaveSaved() {
+	public void officialsHaveSaved() {
 		OzlympicsFileWriter writer = new OzlympicsTextFileWriter();
 		OzlympicsManager ozManager = createOzlympicsManager();
 
@@ -56,7 +56,7 @@ public class OzlympicsFileWriterTests {
 	}
 	
 	@Test
-	public void testGamesHaveSaved() {
+	public void gamesHaveSaved() {
 		OzlympicsFileWriter writer = new OzlympicsTextFileWriter();
 		OzlympicsManager ozManager = createOzlympicsManager();
 

@@ -32,10 +32,10 @@ public class OzlympicsTextFileWriter extends OzlympicsFile implements
 
 			success = true;
 
-			closeErrorWriter();
-
 		} catch (IOException ioException) {
 			writeErrorMessage(ErrorSeverity.FATAL, ioException);
+		} finally {
+			closeErrorWriter();
 		}
 	}
 

@@ -12,7 +12,7 @@ public class OzlympicsManagerTests {
 	 * @Before public void setupManager() { manager_ = new OzlympicsManager(); }
 	 */
 	@Test
-	public void testAddAthletes() {
+	public void addAthletes() {
 		OzlympicsManager manager = new OzlympicsManager();
 
 		try {
@@ -44,7 +44,7 @@ public class OzlympicsManagerTests {
 	}
 
 	@Test
-	public void testAddGames() {
+	public void addGames() {
 		OzlympicsManager manager = new OzlympicsManager();
 
 		try {
@@ -73,7 +73,7 @@ public class OzlympicsManagerTests {
 	}
 
 	@Test
-	public void testIsIdValid() {
+	public void isIdValid() {
 		boolean validAthleteId1 = OzlympicsManager.isIdValid("A001", "Athlete");
 		boolean validAthleteId2 = OzlympicsManager.isIdValid("A025", "Athlete");
 		boolean validAthleteId3 = OzlympicsManager.isIdValid("A129", "Athlete");
@@ -132,7 +132,7 @@ public class OzlympicsManagerTests {
 	}
 
 	@Test
-	public void testIsStateValid() {
+	public void isStateValid() {
 		String[] states = new String[] { "ACT", "Nsw", "nt", "qld", "SA",
 						"Tas", "Vic", "wa" };
 		String[] invalidStates = new String[] { "atc", "swn", "no", "as", "taz" };
@@ -149,7 +149,7 @@ public class OzlympicsManagerTests {
 	}
 	
 	@Test
-	public void testIsSportValid() {
+	public void isSportValid() {
 		String[] sports = new String[]{"Swimming","Cycling","Running","Triathlon"};
 		String[] invalidSports = new String[]{"Swmmng","Cyclng","Triathalon","Equestrian","Runing"};
 		
@@ -165,7 +165,7 @@ public class OzlympicsManagerTests {
 	}
 	
 	@Test
-	public void testIsAgeValid() {
+	public void isAgeValid() {
 		String[] ages = new String[]{"18","20","23","27","50","59","60"};
 		String[] invalidAges = new String[]{"-1","0","17","61","as",""};
 		

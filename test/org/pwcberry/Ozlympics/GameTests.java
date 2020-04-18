@@ -5,30 +5,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class GameTests {
-
 	@Test
-	public void testGenerateId() {
-		// Arrange
-		Game game1 = new Game(10, 20, Sport.RUNNING);
-		Game game2 = new Game(10, 20, Sport.RUNNING);
-		Game game3 = new Game(100, 200, Sport.SWIMMING);
-		Game game4 = new Game(600, 800, Sport.CYCLING);
-
-		// Act
-		String id1 = game1.getId();
-		String id2 = game2.getId();
-		String id3 = game3.getId();
-		String id4 = game4.getId();
-
-		// Assert
-		assertEquals("R04", id1);
-		assertEquals("R05", id2);
-		assertEquals("S06", id3);
-		assertEquals("C07", id4);
-	}
-
-	@Test
-	public void testReplaceOfficial() {
+	public void replaceOfficial() {
 		// Arrange
 		Game game1 = new Game(10, 20, Sport.RUNNING);
 		Official official1 = new Official("Ralph Fiennes", 37, "WA");
@@ -45,7 +23,7 @@ public class GameTests {
 	}
 
 	@Test
-	public void testGameIsFull() {
+	public void gameIsFull() {
 		// Arrange
 		Game game1 = new Game(10, 20, Sport.RUNNING);
 
@@ -66,7 +44,7 @@ public class GameTests {
 	}
 
 	@Test
-	public void testGameResults() {
+	public void gameResults() {
 		// Arrange
 		Game game = new Game(10, 20, Sport.RUNNING);
 
@@ -105,7 +83,7 @@ public class GameTests {
 	}
 
 	@Test
-	public void testAthleteScores() {
+	public void athleteScores() {
 		// Arrange
 		Game game = new Game(10, 20, Sport.RUNNING);
 
@@ -139,7 +117,7 @@ public class GameTests {
 	}
 
 	@Test
-	public void testDeadHeatForFirst() {
+	public void deadHeatForFirst() {
 		// Arrange
 		Game game = new Game(10, 20, Sport.RUNNING);
 
@@ -177,7 +155,7 @@ public class GameTests {
 	}
 	
 	@Test
-	public void testDeadHeatForSecond() {
+	public void deadHeatForSecond() {
 		// Arrange
 		Game game = new Game(10, 20, Sport.RUNNING);
 

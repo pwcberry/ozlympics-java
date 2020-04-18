@@ -12,8 +12,7 @@ public class AthleteComparator implements Comparator<Athlete> {
 	 */
 	public int compare(Athlete a1, Athlete a2) {
 		// For ascending sort, a1 > a2 returns a positive integer.
-		return (a1.getScore() > a2.getScore()) ? -1 : 
-			(a1.getScore() < a2.getScore()) ? 1 : 0;
+		return Integer.compare(a2.getScore(), a1.getScore());
 	}
 
 	/**

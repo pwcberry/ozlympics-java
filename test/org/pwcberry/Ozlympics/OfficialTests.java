@@ -8,22 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class OfficialTests {
 
 	@Test
-	public void testGenerateId() {
-		// Arrange
-		Official official1 = new Official("Ralph Fiennes", 37, "WA");
-		Official official2 = new Official("Ben Kingsley", 51, "VIC");
-
-		// Act
-		String id1 = official1.getId();
-		String id2 = official2.getId();
-
-		// Assert
-		assertEquals("O001", id1);
-		assertEquals("O002", id2);
-	}
-
-	@Test
-	public void testAppointToGame() {
+	public void appointToGame() {
 		// Arrange
 		Official official = new Official("Ralph Fiennes", 37, "WA");
 		Game game = new Game(10, 10, Sport.RUNNING);
@@ -37,7 +22,7 @@ public class OfficialTests {
 	}
 
 	@Test
-	public void testRemoveFromGame() {
+	public void removeFromGame() {
 		// Arrange
 		Official official1 = new Official("Ralph Fiennes", 37, "WA");
 		Official official2 = new Official("Ben Kingsley", 51, "VIC");
@@ -57,15 +42,15 @@ public class OfficialTests {
 	}
 
 	@Test
-	public void testToString() {
+	public void objectToString() {
 		// Arrange
 		Official official = new Official("Ralph Fiennes", 37, "WA");
 
 		// Act
-		String fullId = official.toString();
+		String description = official.toString();
 
 		// Assert
-		assertEquals("O003: Ralph Fiennes, 37, WA", fullId);
+		assertEquals("Ralph Fiennes, 37, WA", description.substring(6));
 	}
 
 }
