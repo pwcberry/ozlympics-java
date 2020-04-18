@@ -25,3 +25,8 @@ hs_err_pid*
 # IDE
 .idea
 .vscode
+.gradle
+
+# App
+out/
+
