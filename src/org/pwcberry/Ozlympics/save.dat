@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Ozlympics>
+<Athletes>
+<Athlete id="A001" name="Doug Crockford" age="22" state="VIC" sport="Cycling"/>
+<Athlete id="A002" name="James Zawinski" age="25" state="NSW" sport="Cycling"/>
+<Athlete id="A003" name="Guy Steele" age="27" state="NSW" sport="Cycling"/>
+<Athlete id="A004" name="Brendan Eich" age="29" state="QLD" sport="Cycling"/>
+<Athlete id="A005" name="Leroy Templeton" age="26" state="WA" sport="Triathlon"/>
+<Athlete id="A006" name="Simon Peyton Jones" age="21" state="TAS" sport="Swimming"/>
+<Athlete id="A007" name="Peter Norvig" age="26" state="SA" sport="Swimming"/>
+<Athlete id="A008" name="Fran Allen" age="24" state="SA" sport="Swimming"/>
+<Athlete id="A009" name="Stephanie Alexander" age="24" state="QLD" sport="Swimming"/>
+<Athlete id="A010" name="Marina Sirtis" age="23" state="VIC" sport="Triathlon"/>
+<Athlete id="A011" name="Guy Steele" age="27" state="VIC" sport="Running"/>
+<Athlete id="A012" name="Donald Knuth" age="29" state="NSW" sport="Triathlon"/>
+<Athlete id="A013" name="Anders Hejlsberg" age="26" state="NSW" sport="Triathlon"/>
+<Athlete id="A014" name="Grady Booch" age="23" state="QLD" sport="Running"/>
+<Athlete id="A015" name="Erich Gamma" age="24" state="SA" sport="Running"/>
+<Athlete id="A016" name="Richard Helm" age="27" state="SA" sport="Running"/>
+<Athlete id="A017" name="Ralph Johnson" age="26" state="WA" sport="Running"/>
+<Athlete id="A018" name="John Vlissides" age="27" state="TAS" sport="Running"/>
+<Athlete id="A019" name="Steve McConnell" age="26" state="TAS" sport="Cycling"/>
+<Athlete id="A020" name="Jean Meeus" age="33" state="VIC" sport="Cycling"/>
+<Athlete id="A021" name="Noonian Soong" age="32" state="QLD" sport="Swimming"/>
+<Athlete id="A022" name="Mary Campione" age="22" state="QLD" sport="Swimming"/>
+<Athlete id="A023" name="Kathy Walrath" age="23" state="NSW" sport="Cycling"/>
+<Athlete id="A024" name="Alison Huml" age="21" state="SA" sport="Triathlon"/>
+<Athlete id="A025" name="Sharon Zakhour" age="24" state="VIC" sport="Swimming"/>
+<Athlete id="A026" name="Julie Sussman" age="25" state="TAS" sport="Swimming"/>  
+</Athletes>
+<Officials>
+<Official id="O001" name="Ralph Fiennes" age="37" state="WA"/>
+<Official id="O002" name="Rebecca Goldstein" age="33" state="NSW"/>
+<Official id="O003" name="Leonie Pearson" age="41" state="SA"/>
+</Officials>
+<Games>
+<Game sportPlayed="Swimming">
+<Official id="O001"/>
+</Game>
+</Games>
+</Ozlympics>
